@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:skeletons",
+    "#minecraft:raiders",
+    "minecraft:drowned",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:zombie_villager",
+    "minecraft:zombified_piglin",
+    "minecraft:zombie_horse",
+    "minecraft:zombie_villager",
+    "minecraft:skeleton_horse",
+    "minecraft:wither",
+    "minecraft:phantom",
+    "minecraft:zoglin"
+  ]
+}
