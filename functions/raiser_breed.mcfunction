@@ -1,0 +1,2 @@
+execute as @e[distance=0..2,predicate=l18_trim_runes:vex_helmet_inv,type=!#l18_trim_runes:unvexable] if data entity @s {Age:0} run data modify entity @s InLove set value 200
+execute at @e[distance=0..2,predicate=l18_trim_runes:vex_helmet_inv,type=!#l18_trim_runes:unvexable] run particle minecraft:heart ~ ~1 ~ 0.3 0.3 0.3 0 5 normal

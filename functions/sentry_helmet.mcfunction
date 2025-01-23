@@ -1,0 +1,1 @@
+effect give @e[type=#l18_trim_runes:raiders_and_undeads,distance=0..48] minecraft:glowing 5 0 true

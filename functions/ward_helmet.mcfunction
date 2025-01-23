@@ -1,0 +1,3 @@
+execute at @e[type=!minecraft:player,type=!minecraft:item,limit=1,sort=nearest] run playsound minecraft:entity.warden.tendril_clicks master @s ~ ~ ~ 1 1 0.03
+execute at @e[type=minecraft:player,limit=1,distance=1..,sort=nearest] run playsound minecraft:entity.warden.tendril_clicks master @s ~ ~ ~ 1 0.5 0.03
+execute at @e[type=minecraft:item,limit=1,sort=nearest] run playsound minecraft:entity.warden.tendril_clicks master @s ~ ~ ~ 1 2 0.03

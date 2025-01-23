@@ -1,0 +1,1 @@
+execute if predicate l18_trim_runes:low_light run effect give @s minecraft:invisibility 2 0 true

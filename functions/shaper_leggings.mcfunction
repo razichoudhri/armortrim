@@ -1,0 +1,1 @@
+tp @e[type=minecraft:item,distance=0..5] @s

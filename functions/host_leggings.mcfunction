@@ -1,0 +1,2 @@
+execute at @s if data entity @e[distance=0..1,type=#l18_trim_runes:ridable,limit=1,sort=nearest] Leash run ride @s mount @e[distance=0..1,type=#l18_trim_runes:ridable,limit=1,sort=nearest]
+advancement revoke @s only l18_trim_runes:lead_use

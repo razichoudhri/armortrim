@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "nbt": "{Trim:{pattern:\"minecraft:sentry\"}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "l18_trim_runes:sentry_chestplate"
+  }
+}

@@ -1,0 +1,2 @@
+execute as @e[distance=0..10] if data entity @s AngerTime run data modify entity @s AngerTime set value 0
+execute as @e[distance=0..10] if data entity @s AngerTime run data merge entity @s {Attributes:[{Name:generic.follow_range,Base:2}]}

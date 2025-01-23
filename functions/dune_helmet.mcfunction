@@ -1,0 +1,1 @@
+execute if predicate l18_trim_runes:sunny positioned over motion_blocking if entity @s[dy=999] run effect give @s minecraft:saturation 1 0 true

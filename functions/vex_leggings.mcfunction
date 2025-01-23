@@ -1,0 +1,1 @@
+effect give @s minecraft:levitation 1 2 true

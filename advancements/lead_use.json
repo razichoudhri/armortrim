@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "legs": {
+              "nbt": "{Trim:{pattern:\"minecraft:host\"}}"
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "l18_trim_runes:host_leggings"
+  }
+}

@@ -1,0 +1,1 @@
+effect give @s minecraft:slow_falling 2 1 true

@@ -1,0 +1,1 @@
+execute if entity @s[predicate=l18_trim_runes:coast_chestplate_active] run effect give @s minecraft:slow_falling 1 0 true

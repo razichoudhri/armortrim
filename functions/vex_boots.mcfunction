@@ -1,0 +1,2 @@
+particle dust_color_transition 0.251 0.055 0.451 1 0.675 0.020 1.000 ~ ~ ~ 0.2 0.2 0.2 0.02 5 normal
+execute if block ~ ~-1 ~ air if block ~ ~-2 ~ air run effect give @s minecraft:slow_falling 1 0 true

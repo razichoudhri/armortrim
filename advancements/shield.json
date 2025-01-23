@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "legs": {
+              "nbt": "{Trim:{pattern:\"minecraft:ward\"}}"
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "l18_trim_runes:ward_leggings"
+  }
+}

@@ -1,0 +1,2 @@
+execute at @s positioned ~ ~0.8 ~ run particle ambient_entity_effect ^ ^ ^-0.3 0.3 0.5 0.3 0.11 1 normal
+execute on attacker run data modify entity @e[distance=0..20,limit=1,sort=random] AngryAt set from entity @s UUID
